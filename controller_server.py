@@ -19,5 +19,5 @@ def start_server(port, ip_addr, uid):
         time.sleep(1)
 
 if __name__ == "__main__":
-    #start_server("5556", "*", 00000001)
-    start_server("5556", "192.168.0.2", 00000001) 
+    start_server("5556", "*", 00000001)
+    #start_server("5556", "192.168.0.2", 00000001) 

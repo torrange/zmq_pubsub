@@ -17,5 +17,5 @@ def start_client(port, ip_addr):
         print(msg)
 
 if __name__ == "__main__":
-    #start_client("5556", "127.0.0.1")
-    start_client("5556", "192.168.0.2")
+    start_client("5556", "127.0.0.1")
+    #start_client("5556", "192.168.0.2")
